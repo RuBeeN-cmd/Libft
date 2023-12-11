@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static int	get_nbr_len(int n)
+static int	get_nbr_len(long long n)
 {
 	int	i;
 
