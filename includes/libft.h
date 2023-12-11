@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "list.h"
+#include "ft_printf.h"
 
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
