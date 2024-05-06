@@ -52,7 +52,8 @@ SRC = ft_isalnum.c \
 		print_nbr_fd.c \
 		print_addr_fd.c \
 		print_unbr_fd.c \
-		ft_printf_fd.c
+		ft_printf_fd.c \
+		ft_rand.c
 OBJ = $(addprefix $(OBJ_DIR)/, $(SRC:.c=.o))
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
